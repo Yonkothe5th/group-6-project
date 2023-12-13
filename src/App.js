@@ -2,8 +2,8 @@ import React from "react";
 import { Route, Switch } from "react-router-dom";
 import NavBar  from "./components /NavBar";
 import Cart from "./components /Cart";
-import Shop from "./components /Shop";
 import Contacts from "./components /Contacts";
+import Shop from "./components /Shop";
 import "./App.css";
 
 function App() {
