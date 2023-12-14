@@ -1,7 +1,8 @@
 .App {
   text-align: center;
-  background-image: -webkit-image-set();
+  
 }
+
 
 @font-face {
   font-family: Dancing Script;
@@ -192,7 +193,7 @@ h2 {
   margin-top: 20px;
 }
 
-/* Add these styles to your CSS file or component */
+
 
 .checkout-container {
   max-width: 600px;
@@ -258,7 +259,6 @@ button:hover {
   color: inherit;
 }
 
-/* Optional: Hover effect */
 .floating-cart-icon:hover {
   background-color: #7d8072;
 }

@@ -11,7 +11,7 @@ function Shop() {
     const { addToCart } = useCart();
 
     useEffect(() => {
-    // Simulating fetching data from an API
+    
         fetch('http://localhost:3000/Stock')
             .then(response => response.json())
             .then(data => {
@@ -35,9 +35,6 @@ function Shop() {
                 <button onClick={() => window.location.reload()}>Retry</button>
             </div>
         )}
-            {/* <div className='shopTitle'>
-                <h2>DRINK OF CHOICE</h2>
-            </div> */}
         {data.map(item => (
             
         <div key={item.id} className="shop-item">
@@ -48,7 +45,6 @@ function Shop() {
             <button onClick={() => addToCart(item)}>Add to Cart</button>
         </div>
     ))}
-        {/* Floating Cart Icon */}
         <div className="floating-cart-icon">
         <Link to="/Cart">🛒</Link>
     </div>
