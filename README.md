@@ -1,4 +1,7 @@
-his project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+<img width="1433" alt="Screenshot 2023-12-14 at 8 17 30 PM" src="https://github.com/Yonkothe5th/group-6-project/assets/144024760/740d2ec6-b185-4daa-8cb0-9bf53e16be90">
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
 ## LIQUOR WORLD
