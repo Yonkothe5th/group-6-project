@@ -12,7 +12,7 @@ function Shop() {
 
     useEffect(() => {
     
-        fetch('http://localhost:3000/Stock')
+        fetch('https://liquer-world-sdf.onrender.com/Stock')
             .then(response => response.json())
             .then(data => {
                 setData(data);
