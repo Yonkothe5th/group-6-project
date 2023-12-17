@@ -11,7 +11,6 @@
   font-family: Dancing Script;
 }
 
-
 .pombe {
   font-size: x-large;
   display: flex;
@@ -247,5 +246,4 @@ button:hover {
 .floating-cart-icon:hover {
   background-color: #7d8072;
 }
-
 
