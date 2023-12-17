@@ -1,7 +1,4 @@
-// Shop.js
-import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
-import { useCart } from './CartContext';
+import React from 'react';
 
 function Shop() {
   const [data, setData] = useState([]);
@@ -27,27 +24,14 @@ function Shop() {
   return (
     <div className="shop-container">
       {loading && <p className="loading-message">Loading...</p>}
-      {error && (
+      {error && 
+function Shop(){
+    return (
+      
         <div>
-          <p className="error-message">{error}</p>
-          <button onClick={() => window.location.reload()}>Retry</button>
+            <p>Display Goods</p>
         </div>
-      )}
-      {data.map(item => (
-        <div key={item.id} className="shop-item">
-          <img src={item.Image} alt={item.Name} className="item-image" />
-          <p className="item-name">Name: {item.Name}</p>
-          <p className="item-description">Description: {item.Description}</p>
-          <p className="item-price">Price: {item.Price} Ksh</p>
-          <button onClick={() => addToCart(item)}>Add to Cart</button>
-        </div>
-      ))}
-      {/* Floating Cart Icon */}
-      <div className="floating-cart-icon">
-        <Link to="/Cart">🛒</Link>
-      </div>
-    </div>
-  );
+    )
 }
 
 export default Shop;
