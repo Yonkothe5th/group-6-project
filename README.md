@@ -44,7 +44,7 @@ Wilson Gachanja.
 
 ## Live Link
 
-[link to site](https://liquer-world-group.onrender.com/)
+[link to site](https://liquor-world-frontend.onrender.com)
 
 ## Technologies Used
 
