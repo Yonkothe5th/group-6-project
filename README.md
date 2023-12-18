@@ -10,9 +10,9 @@ Liquor world is a Kenyan original frontend application that is used to make it e
 
 ## Developer's name
 
-Brian Lawi Ochiel - Scram Master
-Boniface Cheruiyot
-Wilson Gachanja
+Brian Lawi Ochiel, 
+Boniface Cheruiyot,
+Wilson Gachanja.
 
 ## Requirements
 
